@@ -1,2 +1,2 @@
 # landing-page
-Landing Page for hypothetical Business
+Landing Page for a hypothetical business
