@@ -1,0 +1,241 @@
+body {
+font-family: 'Monsterrat', sans-serif;
+margin: 0;
+min-height: 100vh;
+flex-direction: column
+display: flex;
+}
+
+.header {
+  background-color: rgba(121, 119, 115, 0.986);
+  color: rgb(203, 207, 206);
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 70px;
+  padding: 5px;
+}
+
+.search{
+  padding: 15px 80px;
+  background-color: rgb(221, 220, 220);
+  color: grey;
+  font-style: italic;
+}
+.header-links{
+  margin-right: 5px;
+}
+
+ ul{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style: none;
+  margin-right: 10px;
+}
+
+a, li{
+  color: rgb(203, 207, 206);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 4px;
+  transition-duration: .6s;
+}
+ a:hover{
+  color: rgb(48, 45, 42);
+ }
+
+.body-1{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(78, 74, 67, 0.986);
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.body-1-left {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  height: auto;
+  margin-left: 150px;
+}
+.body-1-head{
+  color: rgb(203, 207, 206);
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+  margin: 20px;
+  margin-left: 30px;
+
+}
+
+.body-1-text{
+  font-size: 20px;
+  margin: 30px;
+  color: rgb(203, 207, 206);
+  width: 400px;
+  font-style: oblique;
+}
+.body-1-image img{
+  height: fit-content;
+  justify-content: center;
+  flex-basis: 90%;
+}
+
+.button{
+  font-size: 15x;
+  background-color: rgb(133, 128, 116);
+  padding: 10px;
+  color: rgb(187, 187, 186);
+  margin: 30px;
+  width: fit-content;
+  border: 1px, rgb(255, 255, 255);
+  border-radius: 9px;
+  border-style:solid;
+  transition-duration: .6s;
+  margin-bottom: 0px;
+}
+
+.button:hover{
+  background-color:  rgb(75, 72, 65);
+  color: rgb(255, 255, 255);
+}
+
+.body-2{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(155, 153, 149);
+  justify-content: center;
+  align-items: center;
+}
+
+.body-2-title{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px;
+  color: rgb(80, 80, 80);
+}
+
+.body-2-pictures{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.picture img{
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.picture-text{
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(203, 207, 206);
+  margin: 10px;
+  padding: 10px;
+  transition-duration: .6s;
+}
+
+.picture-text:hover{
+  color: rgb(75, 65, 53);
+}
+
+.body-3{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(155, 153, 149);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.body-3-quote{
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(44, 44, 44);
+}
+
+.quotesource{
+  font-size: 25px;
+  color: rgb(24, 24, 24);
+  align-self: flex-end;
+}
+
+.body-4{
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  background-color: rgb(179, 175, 170);
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(88, 84, 78);
+  padding: 100px 280px;
+  gap: 600px 200px;
+}
+
+.container-text{
+  color: rgb(203, 207, 206);
+  width: 500px;
+}
+
+.text1{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.text2{
+  font-size: 16px;
+  color: rgb(187, 187, 186);
+  margin: 20px;
+}
+
+.button2{
+  font-size: 30px;
+  color: rgb(109, 96, 78);
+  background-color: beige;
+  padding: 20px;
+  transition-duration: .6s;
+  border: 1px, rgb(255, 255, 255);
+  border-radius: 9px;
+  border-style:solid;
+}
+
+.button2:hover{
+  background-color: rgb(77, 72, 67);
+  color: beige;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: rgb(85, 82, 79);
+  background-color: rgb(187, 184, 179);
+}
